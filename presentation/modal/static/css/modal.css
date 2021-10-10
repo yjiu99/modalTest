@@ -8,7 +8,7 @@ a:hover {
     cursor: pointer;
 }
 #modal_layer{
-    display : none;
+    display : flex;
     overflow : auto;
     position : fixed;
     justify-content: center;
