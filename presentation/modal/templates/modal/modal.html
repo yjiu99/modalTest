@@ -1,4 +1,17 @@
+<!DOCTYPE html>
+{% load static %}
+<head>
+    <link rel= "stylesheet" type="text/css" href="{% static 'css/modal.css' %}">
+</head>
+<body>
+<!--모달-->
+
+<!--글 목록-->
 {% for blogs in blogs.all %}
-<h1>{{blogs.title}}</h1>
-<div>{{blogs.body}}</div>
+    <h1>{{blogs.title}}</h1>
+    <div>{{blogs.body}}</div>
 {% endfor %}
+
+<!--javascripts-->
+
+</body>

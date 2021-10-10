@@ -19,5 +19,5 @@ import modal.views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', modal.views.modal, name='modal'),
+    path('modal/', modal.views.modal, name='modal'),
 ]
